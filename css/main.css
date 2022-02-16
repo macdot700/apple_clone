@@ -1,0 +1,363 @@
+*{padding: 0%; margin: 0%;}
+body{background-color: white;}
+/* Navigation section */
+.nav{ display: flex; justify-content: space-between; background-color: rgb(51, 50, 50); color: white;}
+.nav{position: sticky; top: 0; z-index: 100;}
+.nav .logo img{padding-left: 160px;padding-top: 10px;}
+.nav .link1{padding: 13px;}
+.nav .link1 a{ text-decoration: none; color: rgb(192, 191, 191); padding: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 12px; margin: -10px;}
+.nav .link2{margin-top: 12px;}
+.nav .link3{padding-right: 150px; margin-top: 10px;}
+/* Navigation section ends */
+/* Shop section */
+.shop{background-color: rgb(252, 247, 247); text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: smaller; justify-content: center; padding: 5px; line-height: 40px;}
+/* Shop section ends */
+/* Section 1 */
+.section1{text-align: center; width: 100%; height: 100%; padding: 30px;}
+.section1 h1{font-family: Arial, Helvetica, sans-serif ; font-size: 50px; color: black; padding-top: 10px; padding-bottom: 10px;}
+.section1 p{ font-family: Arial, Helvetica, sans-serif; font-size: 30px; padding-bottom: 10px;}
+.section1 h2:hover {text-decoration: underline;}
+.section1 h2{font-family: Arial, Helvetica, sans-serif; padding-bottom: 50px;}
+/* Section1 ends */
+/* Section2 */
+.section2{ background-color: rgb(55, 43, 56); text-align: center; padding-top: 40px;}
+.section2 h1{font-family: Arial, Helvetica, sans-serif; font-size: 50px; padding: 10px;}
+.section2 h2{font-family: Arial, Helvetica, sans-serif; font-size: 25px; padding: 10px; text-indent: 0vmin;}
+.section2 h3:hover {text-decoration: underline;}
+.section2 h3{font-family: Arial, Helvetica, sans-serif;padding-bottom: 30px; padding-top: 20px;}
+/* Section2 ends */
+/* Section3 */
+.section3{background-color: rgb(242, 248, 239);text-align: center; padding: 30px;}
+.section3 h2{font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: lighter; color: rgb(41, 40, 40);padding-bottom: 20px;}
+.section3 h3:hover {text-decoration: underline;}
+.section3 h3{padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter;}
+/* Section3 ends */
+/* Section4 */
+.section4{display: flex; margin: 10px;}
+.section4 .col1{width: 50%; background-color: rgb(248, 248, 248); text-align: center; padding-top: 30px;}
+.section4 .col1 h2{font-family: Arial, Helvetica, sans-serif; ; text-decoration: none; font-size: 20px; font-weight: lighter; color: rgb(41, 40, 40); padding-bottom: 20px;}
+.section4 h3:hover {text-decoration: underline;}
+.section4 .col1 h3{font-family: Arial, Helvetica, sans-serif; padding-bottom: 20px; font-weight: lighter;}
+.section4 .col2{width: 50%; background-color: rgb(250, 250, 250); text-align: center; padding-top: 30px; margin-left: 10px;}
+.section4 .col2 h1{ padding: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 35px;}
+.section4 .col2 h2{ font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: lighter; color: rgb(41, 40, 40);; padding-bottom: 20px;}
+.section4 .col2 h3{ font-family: Arial, Helvetica, sans-serif; font-weight: lighter; padding-bottom: 50px;}
+.section4 .col2 p{padding-top: 30px;}
+/* Section4 ends */
+/* Section5 */
+.section5{ display: flex; margin: 10px;}
+.section5 .col1{ width: 50%; background-color: rgb(252, 245, 245); text-align: center;}
+.section5 .col1 h1{padding-top: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; margin-top: 20px;}
+.section5 .col1 h2{padding: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 40px;}
+.section5 .col2{width: 50%; margin-left: 10px;}
+.section5 h3:hover {text-decoration: underline;}
+.section5 .col2 p{padding-top: 20px;}
+/* Section5 ends */
+/* Section6 */
+.section6{ display: flex; margin: 10px;}
+.section6 .col1{ width: 50%; background-color: rgb(253, 249, 249); text-align: center;}
+.section6 .col1 h1{padding-top: 40px;}
+.section6 .col1 h2{padding-bottom: 15px; padding-top: 15px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: lighter; color: rgb(65, 64, 64);}
+.section6 .col1 h3{margin-bottom: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; color: rgb(143, 139, 139);}
+.section6 h4:hover {text-decoration: underline;}
+.section6 .col1 h4{ font-family: Arial, Helvetica, sans-serif; font-weight: lighter;}
+.section6 .col2{width: 50%; margin-left: 10px; text-align: center; background-color: rgb(254, 255, 254);}
+.section6 .col2 h1{ padding: 30px;}
+.section6 .col2 h2{ color: rgb(65, 64, 64); font-family: Arial, Helvetica, sans-serif; font-weight: lighter; font-size: 20px;}
+.section6 h3:hover {text-decoration: underline;}
+.section6 .col2 h3{ font-family: Arial, Helvetica, sans-serif; font-weight: lighter; padding: 20px;}
+.section6 .col2 p{padding-top: 30px;}
+/* Section6 ends */
+/* Section7 */
+.section7{background-color: rgb(243, 237, 237); margin-right: 5px;}
+.section7 .col1 p{padding-left: 200px; padding-right: 160px; color: rgb(141, 138, 138); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px; padding-top: 20px; line-height: 1.8;}
+.section7 .col1 p{text-align: justify; letter-spacing: 1px; padding-bottom: 20px;}
+/* Section7 ends */
+/* Section8 */
+.section8{background-color: rgb(243, 237, 237); padding-left: 200px; padding-right: 160px; display: flex; padding-top: 20px; word-spacing: 5px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px; padding-bottom: 20px; line-height: 1.8;}
+.section8 .col1{width: 20%; color: rgb(61, 59, 59)}
+.section8 .col2{width: 20%; color: rgb(61, 59, 59)}
+.section8 .col3{width: 20%; color: rgb(61, 59, 59)}
+.section8 .col4{width: 20%; color: rgb(61, 59, 59)}
+.section8 .col5{width: 20%; color: rgb(61, 59, 59)}
+.col6{background-color: rgb(243, 237, 237); padding-left: 200px;padding-top: 20px; padding-bottom: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px;color: rgb(65, 64, 64);}
+/* Section8 ends */
+.foot{background-color: rgb(243, 237, 237);}
+.foot .copyright{ display: flex;justify-content: space-evenly; padding-bottom: 25px;padding-left: 80px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 11px;color: rgb(65, 64, 64);word-spacing: 5px;}
+/* Index section ends */
+
+/* TV&Home page begins */
+.nav{position: relative;}
+/* Container */
+.container{display: flex; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 12px; margin-top: 20px;padding-left: 300px;justify-content: space-between; padding-right: 300px; text-align: center;}
+.container :hover{color: blue;}
+/* Container ends */
+/* Sect1 */
+.sect1{background-color: rgb(248, 248, 248);}
+.sect1 .cl1{padding-top: 15px;}
+.sect1 .cl2{padding-top: 30px; padding-right: 300px;}
+.sect1 .cl3 h1{padding-left: 130px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 80px;padding-bottom: 20px;}
+.sect1 .cl3 h3{ font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: x-large;color: rgb(150, 144, 144);font-weight: lighter;padding-left: 100px;padding-right: 60px;text-align: center;}
+.sect1 .cl3 p{text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bold;font-size: 13px;padding-bottom: 100px;}
+.sect1 .cl3 p:hover{text-decoration: underline;}
+/* Sect1 ends */
+/* Sect2 */
+.sect2{background-color: rgb(247, 242, 242); display: flex;}
+.sect2 .cl1{margin-right: 20px; margin-left: 20px; text-align: center; background-color: white; width: 50%;border-radius: 20px;}
+.sect2 button {background-color: blue; color: white; border-radius: 30px; width: 70px; height: 40px; border-width: thin;}
+.sect2 .cl2{width: 50%; background-color: white; margin-right: 25px; text-align: center; border-radius: 20px;}
+.sect2 .cl2 h1{padding-top: 40px;}
+.sect2 .cl2 h2{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 40px; padding-top: -20px;}
+.sect2 .cl2 h3{font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(83, 83, 83);font-weight: lighter;padding: 10px;}
+/* Sect2 ends */
+/* Sect3 */
+.sect3{display: flex; background-color: rgb(247, 242, 242);}
+.sect3 .cl1{margin-left: 20px; margin-top: 20px;}
+.sect3 .cl1 img{background-color: white;padding-top: 80px; padding-left: 100px;border-top-left-radius: 20px; border-bottom-left-radius: 20px;}
+.sect3 .cl2{background-color: white;text-align: center; padding: 40px;margin-top: 20px;margin-right: 20px;border-top-right-radius: 20px; border-bottom-right-radius: 20px;}
+.sect3 .cl2 h1{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter; font-size: 20px;padding-top: 80px; padding-bottom: 20px;}
+.sect3 .cl2 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 40px;padding-bottom: 20px;font-weight: bold;}
+.sect3 .cl2 p:hover{text-decoration: underline;}
+/* Sect3 ends */
+/* Sect4 */
+.header{background-color: rgb(247, 242, 242); text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 27px;padding:100px;color: rgb(43, 42, 42);}
+.sect4{display: flex;background-color: rgb(247, 242, 242);}
+.sect4 .col1{width: 33.3%;background-color: white;margin-left: 20px;margin-right: 20px;border-radius: 20px;text-align: center;padding-top: 30px;}
+.sect4 .col1 h1{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;color: rgb(51, 50, 50);padding-bottom: 10px;}
+.sect4 .col1 h2{font-size: 16px;font-weight: lighter;padding-bottom: 50px;}
+.sect4 .col1 h2:hover{text-decoration: underline;}
+.sect4 .col2{width: 33.3%;background-color: white;margin-right: 20px;border-radius: 20px;text-align: center;padding-top: 30px;}
+.sect4 .col2 h1{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;color: rgb(51, 50, 50);padding-bottom: 15px;}
+.sect4 .col2 h2{font-size: 16px;font-weight: lighter;padding-bottom: 50px;}
+.sect4 .col2 h2:hover{text-decoration: underline;}
+.sect4 .col3{width: 33.3%;background-color: white;margin-right: 20px;border-radius: 20px;text-align: center;padding-top: 30px;}
+.sect4 .col3 h1{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;color: rgb(51, 50, 50);padding-bottom: 15px;}
+.sect4 .col3 h2{font-size: 16px;font-weight: lighter;padding-bottom: 90px;}
+.sect4 .col3 h2:hover{text-decoration: underline;}
+.sect4 .col3 h3{color: rgb(233, 108, 181);font-size: 40px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bold;}
+/* Sect4 ends */
+/* Sect5 */
+.header2{background-color: rgb(247, 242, 242); text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 27px;padding:170px;color: rgb(43, 42, 42);}
+.header2 p{font-size: 16px;font-weight: lighter;padding-top: 20px;}
+.header2 p:hover{text-decoration: underline;}
+.sect5{display: flex;background-color: rgb(247, 242, 242);}
+.sect5 .col1{width: 33.3%;background-color: white;margin-left: 20px;margin-right: 20px;border-radius: 20px;text-align: center;padding-top: 30px;}
+.sect5 .col1 h1{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 25px;color: rgb(51, 50, 50);padding-bottom: 10px;}
+.sect5 .col1 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 15px;color: gray;padding-bottom: 20px;}
+.sect5 .col1 h3{font-size: 16px;font-weight: lighter;padding-bottom: 50px;}
+.sect5 .col1 h3:hover{text-decoration: underline;}
+.sect5 .col1 figcaption{padding-bottom: 50px;color: gray;}
+.sect5 .col2{width: 33.3%;background-color: white;margin-left: 20px;margin-right: 20px;border-radius: 20px;text-align: center;padding-top: 30px;}
+.sect5 .col2 h1{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 25px;color: rgb(51, 50, 50);padding-bottom: 10px;}
+.sect5 .col2 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 15px;color: gray;padding-bottom: 20px;}
+.sect5 .col2 h3{font-size: 16px;font-weight: lighter;padding-bottom: 50px;}
+.sect5 .col2 h3:hover{text-decoration: underline;}
+.sect5 .col2 figcaption{color: gray;}
+.sect5 .col3{width: 33.3%;background-color: white;margin-left: 20px;margin-right: 20px;border-radius: 20px;text-align: center;padding-top: 30px;}
+.sect5 .col3 h1{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 25px;color: rgb(51, 50, 50);padding-bottom: 10px;}
+.sect5 .col3 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 15px;color: gray;padding-bottom: 20px;}
+.sect5 .col3 h3{font-size: 16px;font-weight: lighter;padding-bottom: 50px;}
+.sect5 .col3 h3:hover{text-decoration: underline;}
+.sect5 .col3 figcaption{color: gray;}
+/* Sect5 ends */
+/* Sect6 */
+.header3{background-color: rgb(247, 242, 242); text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 27px;padding-top: 170px;color: rgb(43, 42, 42);padding-right: 80px;padding-left: 80px;}
+.video{background-color: rgb(247, 242, 242);padding-left: 90px;}
+.sect6{display: flex;background-color: rgb(247, 242, 242);justify-content: center}
+.sect6 button {background-color: rgb(44, 44, 241); color: white; border-radius: 30px; width: 110px; height: 35px; border-width: thin;}
+.sect6 .col1{width: 25%;padding-left: 70px;text-align: center;}
+.sect6 .col1 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter;font-size: 18px;color: rgb(63, 61, 61);}
+.sect6 .col1 h3{padding-top: 15px;padding-bottom: 15px;}
+.sect6 .col1 p:hover{text-decoration: underline;}
+.sect6 .col2{width: 25%;text-align: center;padding-top: 50px;}
+.sect6 .col2 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter;font-size: 18px;color: rgb(63, 61, 61);}
+.sect6 .col2 h3{padding-top: 15px;padding-bottom: 25px;}
+.sect6 .col2 p:hover{text-decoration: underline;}
+.sect6 .col3{width: 25%;text-align: center;padding-top: 50px;}
+.sect6 .col3 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter;font-size: 18px;color: rgb(63, 61, 61);}
+.sect6 .col3 h3{padding-top: 15px;padding-bottom: 25px;}
+.sect6 .col3 p:hover{text-decoration: underline;}
+.sect6 .col4{width: 25%;text-align: center;padding-top: 50px;padding-right: 70px;}
+.sect6 .col4 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter;font-size: 18px;color: rgb(63, 61, 61);}
+.sect6 .col4 h3{padding-top: 15px;padding-bottom: 25px;}
+.sect6 .col4 p:hover{text-decoration: underline;}
+/* Sect6 ends */
+/* Sect66 */
+.sect66{background-color: rgb(247, 242, 242);display: flex;padding-top: 200px;justify-content: center;}
+.sect66 .col1{width: 33.3%;text-align: center;}
+.sect66 .col1 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;color: rgb(43, 42, 42);padding-bottom: 10px;}
+.sect66 .col1 h3{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter;font-size: 13px;color: rgb(68, 67, 67);padding-bottom: 10px;}
+.sect66 .col1 p:hover{text-decoration: underline;}
+.sect66 .col2{width: 33.3%;text-align: center;}
+.sect66 .col2 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;color: rgb(43, 42, 42);padding-bottom: 10px;}
+.sect66 .col2 h3{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter;font-size: 13px;color: rgb(68, 67, 67);padding-bottom: 10px;}
+.sect66 .col2 p:hover{text-decoration: underline;}
+.sect66 .col3{width: 33.3%;text-align: center;}
+.sect66 .col3 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;color: rgb(43, 42, 42);padding-bottom: 10px;}
+.sect66 .col3 h3{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter;font-size: 13px;color: rgb(68, 67, 67);padding-bottom: 10px;}
+.sect66 .col3 p:hover{text-decoration: underline;}
+/* Sect66 ends */
+/* Sect7 */
+.sect7{background-color: rgb(243, 237, 237); padding-left: 100px; padding-right: 160px; display: flex; padding-top: 50px; word-spacing: 2px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px; color: rgb(83, 83, 83); padding-bottom: 50px; line-height: 1.8;}
+.sect7 p{padding-top: 20px; padding-bottom: 10px;}
+/* Sect7 ends */
+/* Sect8 */
+.sect8{background-color: rgb(243, 237, 237); padding-left: 200px; padding-right: 160px; display: flex; padding-top: 20px; word-spacing: 5px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px; padding-bottom: 20px; line-height: 1.8;}
+.sect8 .col1{width: 20%; color: rgb(61, 59, 59)}
+.sect8 .col2{width: 25%; color: rgb(61, 59, 59)}
+.sect8 .col3{width: 25%; color: rgb(61, 59, 59)}
+.sect8 .col4{width: 25%; color: rgb(61, 59, 59)}
+.sect8 .col5{width: 25%; color: rgb(61, 59, 59)}
+.col6{background-color: rgb(243, 237, 237); padding-left: 200px;padding-top: 20px; padding-bottom: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px;color: rgb(65, 64, 64);}
+/* Sect8 ends */
+.foot{background-color: rgb(243, 237, 237);}
+.foot .copyright{ display: flex;justify-content: space-evenly; padding-bottom: 25px;padding-left: 80px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 11px;color: rgb(65, 64, 64);word-spacing: 5px;}
+/* TV&home section ends */
+
+/* Watch page */
+.nav{position: relative;}
+/* Container2 */
+.container2{display: flex; font-size: 12px;padding-left: 80px;justify-content: space-between; padding-right: 80px; text-align: center;background-color: rgb(248, 244, 244);padding-bottom: 40px;padding-top: 20px;}
+.container2 :hover{color: blue;}
+/* Container2 ends */
+.save{background-color: rgb(243, 240, 240);font-size: 13px;text-align: center;padding-bottom: 10px;padding-top: 10px;}
+/* Save ends */
+/* Sec1 */
+.sec1{background-color: rgb(248, 244, 244)}
+.sec1 .col1{text-align: center;justify-content: center;margin-top: 5px;padding-top: 30px;line-height: 2.5;}
+.sec1 h4{font-size: 15px;}
+.sec1 button{background-color: blue; color: white; border-radius: 30px; width: 70px; height: 40px; border-width: thin;}
+.sec1 h6{padding: 10px;}
+.sec1 h6:hover{text-decoration: underline;}
+.sec1 .col2{background-color: white;margin-left: 20px;margin-right: 20px;margin-bottom: 100px; border-radius: 20px;display: flex;text-align: center;padding-left: 200px;padding-top: 100px;}
+.sec1 .col22{padding-left: 200px;}
+.sec1 .col22 h1{font-size: 12px;font-weight: lighter;padding-bottom: 20px;}
+.sec1 .col22 h2{font-size: 50px; color: darkgreen;padding-bottom: 100px;}
+/* Sec1 ends */
+/* Sec2 */
+.sec2{background-color: white;display: flex;}
+.sec2 .col1{width: 50%;background-color: rgb(250, 250, 250);text-align: center;padding-top: 200px;padding-left: 20px;}
+.sec2 .col1 h2{font-size: 45px;font-weight: lighter;padding-bottom: 20px;}
+.sec2 h3{font-size: 15px;padding-bottom: 20px;}
+.sec2 button{background-color: blue; color: white; border-radius: 30px; width: 70px; height: 40px; border-width: thin;}
+.sec2 .col2{width: 50%;}
+/* Sec2 ends */
+/* Sec3 */
+.sec3 p {text-align: center;font-size: 50px;padding-top: 60px;padding-bottom: 50px;}
+.sec3 .columns{display: flex;padding-bottom: 40px;}
+.sec3 .columns .col1{width: 33.3%;text-align: center;line-height: 1.8;}
+.sec3 .columns .col1 h2{font-size: 13px;color: red;font-weight: lighter;}
+.sec3 .columns .col1 h3{padding-top: 10px;}
+.sec3 .columns .col1 p{margin-left: 60px; margin-right: 60px;padding-top: 30px;}
+.sec3 .columns .col2{width: 33.3%;text-align: center;line-height: 2.2;}
+.sec3 .columns .col2 h3{font-size: 13px;}
+.sec3 .columns .col2 p{margin-left: 60px; margin-right: 60px;padding-bottom: -10px;}
+.sec3 .columns .col3{width: 33.3%;text-align: center;line-height: 2.2;}
+.sec3 .columns .col3 h3{font-size: 13px;}
+.sec3 .columns .col3 p{margin-left: 60px; margin-right: 60px;}
+.sec3 button{background-color: blue; color: white; border-radius: 30px; width: 70px; height: 40px; border-width: thin;}
+/* Sec3 ends */
+
+/* Sec4 begins */
+.sec4{display: flex;text-align: center;}
+.sec4 .col1{width: 33.3%;line-height: 3.5;}
+.sec4 .col1 p{padding-bottom: 40px;}
+.sec4 .col2{width: 33.3%;line-height: 3.5;}
+.sec4 .col2 p{padding-bottom: 68px;}
+.sec4 .col3{width: 33.3%;line-height: 3.5;}
+.sec4 .col3 p{padding-bottom: 100px;}
+/* Sec4 ends */
+/* Sec5 */
+.sec5 .compare{text-align: center;padding-bottom: 100px;}
+.sec55{display: flex;background-color: rgb(250, 248, 248);padding-top: 100px;margin: 30px;}
+.sec55 .col1{text-align: center;width: 50%;padding-top: 80px;}
+.sec55 .col2{width: 50%;padding-right: 40px;}
+.sec56{text-align: right;margin: 30px;}
+.sec56 h1{padding-top: 300px;padding-right: 150px;}
+.sec56 h2{padding-right: 100px;font-size: 30px;font-weight: lighter;padding-bottom: 30px;}
+.sec56 h3{padding-right: 200px;padding-bottom: 30px;}
+.sec56 h4{padding-right: 140px;padding-bottom: 290px;}
+/* Sec5 ends */
+/* Sec6 */
+.sec6{display: flex;background-color: white;margin: 80px;padding-bottom: 40px;}
+.sec6 .col1{width: 50%;text-align: center;padding: 10px;}
+.sec6 .col2{width: 50%;text-align: center;}
+/* Sec6 ends */
+/* Sec7 */
+.sec7{background-color: rgb(255, 247, 255);margin: 30px;text-align: center;padding-top: 60px;padding-bottom: 60px;}
+.sec7 h2{padding-bottom: 20px;}
+.sec7 h1{font-size: 40px;padding-bottom: 25px;}
+.sec7 button{background-color: white;height: 50px;width: 200px;border-radius: 40px; border-color: green purple pink;}
+/* Sec7 ends */
+/* Sec8 */
+.sec8{background-color: white;display: flex;text-align: center;}
+.sec8 .col1{width: 50%;background-color: rgb(255, 247, 255);margin:20px;padding-top: 40px;}
+.sec8 .col1 h3{font-size: 25px;font-weight: lighter;padding-bottom: 10px;}
+.sec8 .col1 h1{font-size: 40px;font-weight: lighter;padding-bottom: 10px;}
+.sec8 .col1 p{padding: 50px;}
+.sec8 .col2{width: 50%;background-color: rgb(255, 247, 255);margin:20px;padding-top: 50px;}
+.sec8 .col2 h3{font-size: 20px;font-weight: lighter;padding-bottom: 10px;}
+.sec8 .col2 h1{font-size: 40px;font-weight: lighter;padding-bottom: 10px;}
+.sec8 .col2 h4{padding-top: 20px;padding-bottom: 50px;}
+/* sec8 ends */
+/* Sec9 begins */
+.sec9{background-color: white;}
+.sec9 p{padding-top: 20px;padding-bottom: 30px;}
+.sec9 .cols{background-color: rgb(255, 247, 255);display: flex;text-align: center;}
+.sec9 .cols .col1{width: 50%;margin: 30px;}
+.sec9 .cols .col1 h1{font-size: 45px;font-weight: lighter;padding-bottom: 20px;}
+.sec9 .cols .col1 h2{padding-bottom: 150px;}
+.sec9 .cols .col2{width: 50%;margin: 30px;}
+.sec9 .cols .col2 h1{font-size: 45px;font-weight: lighter;padding-bottom: 20px;}
+.sec9 .cols .col2 h2{font-size: 20px; font-weight: lighter;padding-bottom: 10px;}
+/* sec9 ends */
+/* sec0 */
+.sec0{display: flex;text-align: center;padding-top: 30px;}
+.sec0 .del{width: 50%;padding-left: 50px;}
+.sec0 .del h4{padding-top: 20px;padding-bottom: 50px;}
+.sec0 .pay{width: 50%;padding-right: 50px;}
+.sec0 .pay h4{padding-top: 20px;padding-bottom: 50px;}
+/* sec0 ends */
+/* sec01 */
+.sec01 p{padding-top: 30px;padding-bottom: 50px;}
+.sec01 .clz{display: flex;background-color: rgb(255, 247, 255);}
+.sec01 .clz .cl1{width: 50%;padding-left: 30px;}
+
+.sec01 .clz .cl2{width: 50%;padding-left: 40px;}
+.sec01 .clz .cl2 h4{font-size: 25px;font-weight: lighter;}
+.sec01 .clz .cl2 h5{padding-bottom: 30px;}
+/* sec01 ends */
+/* sec02 */
+.sec02{background-color: white;display: flex;text-align: center;}
+.sec02 .col1{width: 50%;background-color: rgb(251, 251, 251);margin: 20px;}
+.sec02 .col1 h1{padding-top: 50px;padding-bottom: 20px;}
+.sec02 .col1 h2{font-size: 20px;font-weight: lighter;padding-bottom: 20px;}
+.sec02 .col1 h3{padding-bottom: 60px;font-weight: lighter;}
+.sec02 .col2{width: 50%;background-color: black;margin: 20px;}
+.sec02 .col2 h1{padding-top: 80px;padding-bottom: 20px;}
+.sec02 .col2 h2{font-weight: lighter;font-size: 20px;}
+/* sec02 ends */
+/* Sec03 */
+.sec03{display: flex;padding-top: 50px;text-align: center;background-color: rgb(248, 246, 246);}
+.sec03 .col1{width: 50%;margin: 20px;}
+.sec03 .col1 h1{padding-top: 30px;font-size: 40px;font-weight: lighter;}
+.sec03 .col1 h2{padding-top: 20px;font-weight: lighter;font-size: 19px;}
+.sec03 .col1 h3{padding-top: 20px;font-weight: lighter;padding-bottom: 60px;}
+.sec03 .col2{width: 50%;margin: 20px;}
+.sec03 .col2 h1{padding-top: 30px;font-size: 40px;font-weight: lighter;}
+.sec03 .col2 h2{padding-top: 20px;font-weight: lighter;font-size: 19px;}
+.sec03 .col2 h3{padding-top: 20px;font-weight: lighter;padding-bottom: 60px;}
+/* Sec03 ends */
+/* Bottom page */
+.bottom1{background-color: rgb(235, 232, 232);padding-left: 130px;padding-right: 130px;padding-top: 30px;font-size: 11px;line-height: 2.5;color: gray;padding-bottom: 25px;}
+.bottom2{background-color: rgb(243, 237, 237); padding-left: 200px; padding-right: 160px; display: flex; padding-top: 20px; word-spacing: 5px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px; padding-bottom: 20px; line-height: 1.8;}
+.bottom2 .col1{width: 20%; color: rgb(61, 59, 59)}
+.bottom2 .col2{width: 25%; color: rgb(61, 59, 59)}
+.bottom2 .col3{width: 25%; color: rgb(61, 59, 59)}
+.bottom2 .col4{width: 25%; color: rgb(61, 59, 59)}
+.bottom2 .col5{width: 25%; color: rgb(61, 59, 59)}
+.coll6 {background-color: rgb(243, 237, 237); padding-left: 130px;padding-top: 20px; padding-bottom: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px;color: rgb(65, 64, 64);}
+/* Bottom ends */
+.foot1{background-color: rgb(243, 237, 237);}
+.foot1 .copyright{ display: flex;justify-content: space-evenly; padding-bottom: 25px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 11px;color: rgb(65, 64, 64);word-spacing: 5px;}
+/* Watch section ends */
